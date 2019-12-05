@@ -1,0 +1,87 @@
+
+RewriteOptions inherit
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+Redirect /our-practice/angeline-n-beltsos/ http://viosfertility.com/angeline-n-beltsos-md/
+Redirect /angeline-n-beltsos-md-announces-chicago-opening/ http://viosfertility.com/infertility-causes/blog/
+Redirect /?p=1264 http://viosfertility.com/
+Redirect /chicagohealthmag/ http://viosfertility.com/
+Redirect /contact/ http://viosfertility.com/locations-doctors/
+Redirect /contact-dev/ http://viosfertility.com/
+Redirect /contact-beltsos/ http://viosfertility.com/locations-doctors/
+Redirect /contact-rhee/ http://viosfertility.com/locations-doctors/
+Redirect /contact-rhee-swansea/ http://viosfertility.com/locations-doctors/
+Redirect /treatments/diminished-ovarian-reserve-dor/ http://viosfertility.com/why-cant-i-get-pregnant/diminished-ovarian-reserve-dor/
+Redirect /1117-2/ http://viosfertility.com/infertility-causes/blog/
+Redirect /treatments/egg-freezingfertility-preservation/ http://viosfertility.com/infertility-treatments/advanced-infertility-treatments/egg-freezing/
+Redirect /our-practice/events-2/ http://viosfertility.com/
+Redirect /experience/ http://viosfertility.com/
+Redirect /financials/ http://viosfertility.com/fertility-treatment-costs/
+Redirect /resources/faq/ http://viosfertility.com/infertility-causes/blog/
+Redirect /resources/glossary/ http://viosfertility.com/infertility-causes/blog/
+Redirect /home/ http://viosfertility.com/
+Redirect /treatments/hysterosalpingogram-hsg/ http://viosfertility.com/why-cant-i-get-pregnant/hysterosalpingogram-hsg/
+Redirect /treatments/in-vitro-fertilization-ivf/ http://viosfertility.com/infertility-treatments/advanced-infertility-treatments/in-vitro-fertilization-ivf/
+
+Redirect /treatments/intrauterine-insemination-iui/ http://viosfertility.com/infertility-treatments/basic/intrauterine-insemination-iui/
+Redirect /1260-2/ http://viosfertility.com/infertility-causes/blog/
+Redirect /our-practice/dr-julie-rhee/ http://viosfertility.com/julie-s-rhee-md/
+Redirect /resources/korean-patients/ http://viosfertility.com/
+Redirect /treatments/lgbt-family-building-program/ http://viosfertility.com/family-planning/same-sex-couples/
+Redirect /london-fertility-show/ http://viosfertility.com/
+Redirect /treatments/male-fertility-evaluation/ http://viosfertility.com/why-cant-i-get-pregnant/male-infertility/
+Redirect /treatments/menopausal-hormone-therapy/ http://viosfertility.com/
+Redirect /resources/mind-body/ http://viosfertility.com/
+Redirect /new-center-for-egg-health-excellence/ http://viosfertility.com/infertility-causes/blog/
+Redirect /new-default-template-sample/ http://viosfertility.com/
+Redirect /1253-2/ http://viosfertility.com/infertility-causes/blog/
+Redirect /?p=1206 http://viosfertility.com/infertility-causes/blog/
+Redirect /our-practice/ http://viosfertility.com/about-vios-fertility-institute/
+Redirect /our-practice-dev/ http://viosfertility.com/
+Redirect /treatments/ovulatory-disorders/ http://viosfertility.com/why-cant-i-get-pregnant/ovulatory-disorders/
+Redirect /treatments/pcos/ http://viosfertility.com/why-cant-i-get-pregnant/polycystic-ovary-syndrome/
+Redirect /treatments/preimplantation-genetic-screening-pgs-and-diagnosis-pgd/ http://viosfertility.com/infertility-treatments/advanced-infertility-treatments/genetic-testing-pgs-pgd/
+Redirect /treatments/poi/ http://viosfertility.com/why-cant-i-get-pregnant/primary-ovarian-insufficiency/
+Redirect /treatments/recurrent-miscarriage/ http://viosfertility.com/why-cant-i-get-pregnant/recurrent-pregnancy-loss-rpl/
+Redirect /resources/ http://viosfertility.com/infertility-causes/blog/
+Redirect /financials/self-pay-programs/ http://viosfertility.com/fertility-treatment-costs/
+Redirect /our-practice/shawn-zimmerman/ http://viosfertility.com/shawn-zimmerman-phd/
+Redirect /treatments/single-parenthood-program/ http://viosfertility.com/family-planning/
+Redirect /site-map/ http://viosfertility.com/
+Redirect /financials/special-programs/ http://viosfertility.com/fertility-treatment-costs/
+Redirect /terms-conditions/ http://viosfertility.com/
+Redirect /test/ http://viosfertility.com/
+Redirect /contact/thank-you/ http://viosfertility.com/
+Redirect /thank-you-new-patient/ http://viosfertility.com/
+Redirect /contact-beltsos/thank-you-for-contacting-dr-beltsos/ http://viosfertility.com/
+Redirect /contact-rhee/thank-contacting-dr-rhee-st-louis/ http://viosfertility.com/
+Redirect /contact-rhee-swansea/thank-you-for-contacting-dr-rhee-swansea/ http://viosfertility.com/
+Redirect /treatments/third-party-reproductioncreative-conception/ http://viosfertility.com/infertility-treatments/
+Redirect /?page_id=553 http://viosfertility.com/
+Redirect /resources/traveling-patients-2/ ttp://viosfertility.com/dev/family-planning/traveling-patients/ ‎
+Redirect /treatment/ http://viosfertility.com/infertility-treatments/
+Redirect /experience/understanding-infertility/ http://viosfertility.com/infertility-causes/blog/
+Redirect /?p=292 http://viosfertility.com/infertility-causes/blog/
+Redirect /vios-fertility-is-hiring/ http://viosfertility.com/infertility-causes/blog/
+Redirect /vios-opens-its-own-ivf-lab-in-chicago/ http://viosfertility.com/infertility-causes/blog/
+Redirect /financials/vios-promise/ http://viosfertility.com/fertility-treatment-costs/
+Redirect /treatments/vios-pulse-fertility-checkup/ http://viosfertility.com/fertility-treatment-costs/vios-pulse/
+Redirect /?p=519 http://viosfertility.com/infertility-causes/blog/
+Redirect /home/what-to-expect/ http://viosfertility.com/
+Redirect /1128-2/ http://viosfertility.com/infertility-causes/blog/
+Redirect /youre-invited-egg-freezing-party/ http://viosfertility.com/infertility-causes/blog/

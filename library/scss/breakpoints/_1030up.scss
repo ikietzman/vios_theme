@@ -1,0 +1,155 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+.wrap {
+  //width: 1040px;
+}
+
+.header {
+	position:relative;
+	nav {
+		display:inline-block;
+		// position:absolute;
+		// right:9%;
+		// margin-top:1.5em;
+		text-align:left;
+
+	}
+}
+
+//Interior Page Styles
+#interior_header {
+	height:400px;
+	background-repeat: no-repeat !important;
+    background-position: 100% 55% !important;
+    background-size: 60% !important;
+    img {
+    	position: absolute;
+	    right: 300px;
+	    z-index: 9;
+	    top: 50px;
+	    left:auto;
+	    transform:none;
+    }
+}
+.interior_page_content {
+	position:relative;
+	// top:-300px;
+	border-top-right-radius:300px;
+	background:$white;
+	margin-top:-330px;
+	z-index:1;
+}
+
+.interior_sidebar {
+	margin-top:50px;
+}
+
+#interior_tiles {
+	.interior_tile {
+		background-size: 150% !important;
+    	background-position: 40% 50% !important;
+		p {
+			font-size:1.125em;
+		}
+	}
+}
+
+//Contact Page Styles
+
+.page-template-contact {
+	.entry-content {
+		padding-top:0;
+	}
+}
+
+.contact_card {
+	text-align:left;
+	.contact_card__left {
+		display:inline-block;
+		width:35%;
+		margin-right:0;
+		vertical-align:top;
+
+	}
+	.contact_card__right {
+		display:inline-block;
+		width:64%;
+		vertical-align:top;
+		border-bottom:none;
+		margin-top:64px;
+		position:relative;
+		.headshot {
+			display:inline-block;
+			vertical-align:top;
+			//margin-right:2em;
+			max-width:300px;
+		}
+		.map {
+			display:inline-block;
+			vertical-align:top;
+			position:absolute;
+			right:0;
+		}
+	}
+}
+
+.contact_card {
+	.contact_card__left {
+		.contact_card__address {
+			//display:inline-block;
+			//width:48%;
+			vertical-align:center;
+		}
+		.contact_card__hours {
+			//display:inline-block;
+			//width:48%;
+			//margin-top:2em;
+			
+		}
+	}
+	.contact_card__right {
+		margin-top:0;
+		.doctor-single {
+			text-align:center;
+			display:inline-block;
+			margin:0 0.5em;
+			h3 {
+				font-size:1em;
+			}
+			img {
+				width:75px;
+				height:auto;
+			}
+			&.one_of_1 {
+				img {
+					width:225px;
+				}
+			}
+			&.one_of_2 {
+				img {
+					width:125px;
+				}
+			}
+			&.one_of_3 {
+				img {
+					width:100px;
+				}
+			}
+			&.one_of_4 {
+				img {
+					width:100px;
+				}
+			}
+		}
+
+	}
+}
